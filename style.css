@@ -1,0 +1,41 @@
+body
+{
+    font-family: sans-serif;
+    color: #333;
+    line-height: 1.5;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background: linear-gradient(to top left, #28b487, #7dd56f);
+}
+
+
+.Modal1
+{
+    
+font-weight: 1000; 
+font-size: 30px;  
+border-radius: 10px; 
+margin: 5rem 2rem;
+border: none;
+background-color: #fff;
+color: rgba(196, 212, 53, 0.685);
+cursor: pointer;
+    
+}
+
+.modal{
+    position: absolute;
+    top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  background-color: white;
+  padding: 6rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+
+}
